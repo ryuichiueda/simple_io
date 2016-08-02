@@ -1,0 +1,7 @@
+<launch>
+  <group ns="simple_io">
+    <node pkg="simple_io" name="simple_pub" type="pub.py"/>
+    <node pkg="simple_io" name="simple_sub" type="sub.py" output="screen" />
+  </group>
+</launch>
+
